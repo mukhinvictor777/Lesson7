@@ -10,6 +10,7 @@
 
 int StepenRec(int a, int n)
 {
+    //return n == 0 ? 1 : PowerRec(a, n - 1) *= a;
     if (n == 0)
     {
         return 1;
